@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/high"
+        android:icon="@drawable/ic_high"
+        android:title="高" />
+    <item
+        android:id="@+id/medium"
+        android:icon="@drawable/ic_medium"
+        android:title="中" />
+    <item
+        android:id="@+id/low"
+        android:icon="@drawable/ic_low"
+        android:title="低">
+    </item>
+
+</menu>

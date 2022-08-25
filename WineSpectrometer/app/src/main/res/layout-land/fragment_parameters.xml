@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <RadioGroup
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@color/AntiqueWhite"
+        android:orientation="vertical"
+        android:id="@+id/parameters_title"
+        android:layout_alignParentRight="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2.0"/>
+        <RadioButton
+            android:id="@+id/rb_intensity"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/search_intensity"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="@color/BottonColor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+        <RadioButton
+            android:id="@+id/rb_camera"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/search_camera"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="@color/BottonColor"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2.0"/>
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fl_view"
+        android:layout_toLeftOf="@+id/parameters_title">
+    </FrameLayout>
+
+</RelativeLayout>

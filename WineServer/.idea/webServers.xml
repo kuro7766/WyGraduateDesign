@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="901c8c25-9e18-45ce-ba0e-4912caf64b2a" name="icephone">
+        <fileTransfer accessType="SFTP" host="39.100.158.75" port="22" sshConfigId="190b0a20-2e51-4b25-a858-c7a595033dd8" sshConfig="root@39.100.158.75:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

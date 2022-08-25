@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:id="@+id/show_title"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="1dp"
+        android:background="@color/AntiqueWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <ToggleButton
+            android:id="@+id/laser_correct"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@color/BottonColor"
+            android:textOff="Automatic"
+            android:textOn="Measuring"
+            android:textColor="@color/Black"
+            android:textSize="12sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+        <ToggleButton
+            android:id="@+id/show_switch"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@color/BottonColor"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textOff="Manual"
+            android:textOn="turn-off"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/show_save"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@color/BottonColor"
+            android:text="Save"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/show_contrast"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@color/BottonColor"
+            android:text="contrast"
+            android:textColor="@color/Black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/show_laser"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@color/BottonColor"
+            android:text="intensity"
+            android:textColor="@color/Black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+        <ToggleButton
+            android:id="@+id/correct_power"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:textOff="PAUSE"
+            android:textOn="PAUSE"
+            android:textColorHint="@color/Black"
+            android:textSize="12sp"
+            android:background="@color/BottonColor"
+            />
+<!--            android:textOff="Calibration"-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+
+        <ToggleButton
+            android:id="@+id/show_pause"
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@color/BottonColor"
+            android:button="@null"
+            android:enabled="false"
+            android:textColor="#000000"
+            android:textOff="DISPLAY"
+            android:textOn="DISPLAY"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/show_view"
+        android:orientation="horizontal"
+        android:background="@color/AntiqueWhite"
+        android:layout_toLeftOf="@+id/show_title">
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="500dp"
+        android:indeterminateTint="#ADADAD"
+
+        android:max="100"
+        android:progress="25"
+        android:visibility="invisible" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/peak1"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="104dp"-->
+        <!--android:layout_marginTop="78dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:textColor="@color/Black"-->
+        <!--android:textSize="10sp" />-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:id="@+id/peak2"-->
+        <!--android:textSize="10sp"-->
+
+        <!--android:textColor="@color/Black"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="195dp"-->
+        <!--android:layout_marginTop="78dp" />-->
+    <!--<TextView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:id="@+id/peak3"-->
+        <!--android:textSize="10sp"-->
+
+        <!--android:textColor="@color/Black"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="322dp"-->
+        <!--android:layout_marginTop="110dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/peak4"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:layout_alignParentStart="true"-->
+
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="385dp"-->
+        <!--android:layout_marginTop="246dp"-->
+        <!--android:textColor="@color/Black"-->
+        <!--android:textSize="10sp" />-->
+
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/limage"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="130dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:layout_marginEnd="83dp"-->
+        <!--android:scaleType="fitCenter"/>-->
+        <!--android:background="@color/Black"-->
+
+
+</RelativeLayout>

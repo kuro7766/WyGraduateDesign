@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">白酒检测</string>
+    <string name="home_show">显示</string>
+    <string name="home_search">搜索</string>
+    <string name="show_laser">激光强度</string>
+    <string name="search_intensity">强度</string>
+    <string name="search_camera">探测器</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intensity_view">强度</string>
+    <string name="camera_view">摄像头</string>
+
+    <string name="intensity_title_text">请输入有效命令</string>
+    <string name="intensity_text">1.调节高激光强度值 2448*23\n2.调节中激光强度值 244D*23\n3.调节低激光强度值244C*23\n亮度范围是0X01-0X63，*符号代表所调节的亮度。</string>
+    <string name="intensity_editText">请输入</string>
+    <string name="input">0123456789abcdefABCDEF</string>
+
+    <string name="tgOnOff">连接开关</string>
+</resources>

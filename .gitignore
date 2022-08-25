@@ -1,0 +1,5 @@
+*.txt
+.svn/
+model.zip
+model/model/knn.json
+WineServer/model/smell.h5

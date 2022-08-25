@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="White">#FFFFFF</color>
+    <color name="colorAll">#FFFAF0</color>
+    <color name="Red">#e41b1b</color>
+    <color name="Black">#000000</color>
+    <color name="Wheat">#F5DEB3</color>
+    <color name="AntiqueWhite">#FAEBD7</color>
+    <color name="TurnOn">#FF7F24</color>
+    <color name="BackGround">#fffaf0</color>
+    <color name="NewBackGround">#3B3B3B</color>
+    <color name="BottonColor">#d9d2e9</color>
+    <!--<color name="BottonColor">#4D4D4D</color>-->
+    <color name="TextColor">#708090</color>
+    <color name="TitleColor">#2B2B2B</color>
+    <color name="MyBarColor">#0000FF</color>
+</resources>

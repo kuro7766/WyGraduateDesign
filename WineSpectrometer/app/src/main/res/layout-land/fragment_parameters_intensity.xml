@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+    android:background="@color/BackGround">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/intensity_title_text"
+        android:textSize="20sp"
+        android:textColor="@color/TextColor"
+        android:gravity="center"
+        android:id="@+id/intensity_title_TV"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intensity_tv"
+        android:singleLine="false"
+        android:text="@string/intensity_text"
+        android:layout_below="@+id/intensity_title_TV"
+        android:textColor="@color/TextColor"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/kongbai"
+        android:layout_below="@+id/intensity_tv"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/intensity_Ll"
+        android:layout_below="@+id/kongbai"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="8.0"
+            android:layout_height="50dp"
+            android:id="@+id/intensity_et"
+            android:hint="@string/intensity_editText"
+            android:maxLength="8"
+            android:digits="@string/input"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2.0"
+            android:layout_height="50dp"
+            android:background="@color/BottonColor"
+            android:id="@+id/intensity_ib"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.05"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
